@@ -1,11 +1,18 @@
+import { CiSearch } from "react-icons/ci";
+import { IoNotificationsSharp } from "react-icons/io5";
+import pp from '../../public/pp.png'
+import Image from "next/image";
+
 export default function RightPanel() {
     return (
-      <div className="w-1/4 p-4 bg-gray-900 text-white">
-        {/* User Profile */}
+      <div className="w-1/4 p-4 text-white bg-sidebarBgColour">
+       
         <div className="mb-6">
-          <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-gray-600 rounded-full"></div>
-            <span>Shuaib</span>
+          <div className="flex items-center gap-2 ml-40">
+            <CiSearch/>
+            <IoNotificationsSharp/>
+            <div className="w-40 h-10 bg-gray-600 rounded-3xl flex flex-row">  <Image src={pp} alt="PP" className="rounded-lg ml-4 my-1 flex items-center h-8 w-8" /> <span className="">Shuaib</span></div>
+           
           </div>
         </div>
   

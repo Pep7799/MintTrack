@@ -11,6 +11,13 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        buttonColour: "#C8EE44",
+        sidebarBgColour: "#1E1C30",
+        mainBgColour: "#201E34",
+        tbalBgColour: "#282541",
+        walletBg: "#353255",
+        textR: "#808281",
+        textA: "#6F767E",
       },
     },
   },
